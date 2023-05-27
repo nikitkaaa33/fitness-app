@@ -1,15 +1,19 @@
 body {
-	max-width: 450px;
+	/* max-width: 450px; */
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: linear-gradient(45deg, #000000, #fdfdfd); /* Градієнтний фон */
+	/* background: linear-gradient(45deg, #000000, #fdfdfd); */
 	background-size: 400% 400%;
-	animation: gradientAnimation 7s ease infinite;
+	/* animation: gradientAnimation 7s ease infinite; */
 	color: #fdfdfd;
+	background: url(./img/me22.jpg);
+	/* background-position: center center; */
+	background-size: cover;
+	background-size: no-repeat;
 }
 
 code {

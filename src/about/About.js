@@ -26,23 +26,34 @@ const MyComponent = () => {
 					alt="description"
 				/>
 				<div className={`text ${isVisible ? "slide-in-right" : ""}`}>
-					<h1>Всім привіт. Мене звати Микита!</h1>
-					<p>Я тренер з багаторічним досвідом бла бла бла</p>
+					<h1>Привіт! Дякую , що завітав на мій сайт. Будемо знайомитись</h1>
+					<p>
+						Мене звати Микита , я допоміг вже сотням людей, і ти не будеш
+						виключенням!
+					</p>
 				</div>
 			</div>
 			<div className={`my-element ${isVisible ? "slide-up" : ""} accordion`}>
 				<Accordion flush>
 					<Accordion.Item eventKey="0">
-						<Accordion.Header>Питання 1</Accordion.Header>
-						<Accordion.Body>Відповідь на питання Ваше 1</Accordion.Body>
+						<Accordion.Header>Як саме проходять тренування?</Accordion.Header>
+						<Accordion.Body>
+							Тренування проходять під моїм супроводом <a href="#">у залі</a>{" "}
+							або онлайн, силові/фітнесс/функціональні - в залежності від ваших
+							цілей
+						</Accordion.Body>
 					</Accordion.Item>
 					<Accordion.Item eventKey="1">
-						<Accordion.Header>Питання 2</Accordion.Header>
-						<Accordion.Body>Відповідь на питання Ваше 2</Accordion.Body>
+						<Accordion.Header>Скільки часу триває тренування?</Accordion.Header>
+						<Accordion.Body>
+							У середньому від 45 хвилин до 70 хвилин
+						</Accordion.Body>
 					</Accordion.Item>
 					<Accordion.Item eventKey="2">
-						<Accordion.Header>Питання 3</Accordion.Header>
-						<Accordion.Body>Відповідь на питання Ваше 3</Accordion.Body>
+						<Accordion.Header>Яка вартість тренувань?</Accordion.Header>
+						<Accordion.Body>
+							Про це можна подивитися <a href="/price">тут</a>
+						</Accordion.Body>
 					</Accordion.Item>
 				</Accordion>
 			</div>

@@ -1,7 +1,13 @@
 .navbar {
+	width: 413px;
 	font-size: 9.5px;
 	color: #fff;
 	&-nav {
 		margin-top: 5px;
+	}
+}
+@media (min-width: 413px) and (max-width: 429px) {
+	.navbar {
+		width: 429px;
 	}
 }

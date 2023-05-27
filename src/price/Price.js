@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import PricingComponent from "./PriceContent/PriceContentOffline";
 import PricingComponentOn from "./PriceContent/PriceContentOnline";
+import PricingComponentOn2 from "./PriceContent/PriceContentOnline2";
+import "./price.scss";
 
 const Price = () => {
 	return (
@@ -30,7 +32,9 @@ const Price = () => {
 						<Tab.Pane eventKey="second">
 							<PricingComponentOn />
 						</Tab.Pane>
-						<Tab.Pane eventKey="third"></Tab.Pane>
+						<Tab.Pane eventKey="third">
+							<PricingComponentOn2 />
+						</Tab.Pane>
 					</Tab.Content>
 				</Col>
 			</Row>

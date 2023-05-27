@@ -12,7 +12,7 @@ const Navigation = () => {
 					<Navbar.Brand href="/">Про Мене</Navbar.Brand>
 					<Nav className="me-auto">
 						<NavDropdown title="Додатково" id="basic-nav-dropdown">
-							<NavDropdown.Item href="#action/3.1">Зала</NavDropdown.Item>
+							<NavDropdown.Item href="/gym">Зала</NavDropdown.Item>
 							<NavDropdown.Item href="#action/3.2">
 								Звязок зі мною
 							</NavDropdown.Item>

@@ -5,6 +5,7 @@ import MyComponent from "./about/About";
 import Trainings from "./trainings/Trainings";
 import Price from "./price/Price";
 import Feed from "./feed/Feed";
+import Gym from "./gym/Gym";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 					<Route path="/trainings" exact element={<Trainings />} />
 					<Route path="/price" exact element={<Price />} />
 					<Route path="/feedback" exact element={<Feed />} />
+					<Route path="/gym" exact element={<Gym />} />
 				</Routes>
 			</div>
 		</Router>
