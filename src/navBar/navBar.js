@@ -13,14 +13,14 @@ const Navigation = () => {
 					<Nav className="me-auto">
 						<NavDropdown title="Додатково" id="basic-nav-dropdown">
 							<NavDropdown.Item href="/gym">Зала</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">
-								Звязок зі мною
-							</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item href="/link">Звязок зі мною</NavDropdown.Item>
+							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action/3.3">чтото еще</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">
+							{/* <NavDropdown.Item href="#action/3.4">
 								Отдельная хуйня
-							</NavDropdown.Item>
+							</NavDropdown.Item> */}
 						</NavDropdown>
 						<Nav.Link href="/trainings">Тренування</Nav.Link>
 						<Nav.Link href="/price">Ціна</Nav.Link>

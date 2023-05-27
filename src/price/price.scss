@@ -7,9 +7,13 @@
 
 .nav-item {
 	background-color: rgb(22, 248, 63);
+	border-radius: 15px;
 	a {
 		color: rgb(4, 77, 2);
 	}
+}
+.nav-pills {
+	background: #000;
 }
 @media (min-width: 413px) and (max-width: 429px) {
 	.nav-item {

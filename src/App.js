@@ -6,6 +6,7 @@ import Trainings from "./trainings/Trainings";
 import Price from "./price/Price";
 import Feed from "./feed/Feed";
 import Gym from "./gym/Gym";
+import Social from "./link/Link";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/price" exact element={<Price />} />
 					<Route path="/feedback" exact element={<Feed />} />
 					<Route path="/gym" exact element={<Gym />} />
+					<Route path="/link" exact element={<Social />} />
 				</Routes>
 			</div>
 		</Router>

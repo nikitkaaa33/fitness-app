@@ -1,0 +1,74 @@
+.icon-header-container {
+	text-align: center;
+	padding: 20px;
+}
+
+.icon-header-container h2 {
+	margin-bottom: 10px;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	p {
+		color: #fff;
+	}
+}
+
+.icon-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 25px;
+	opacity: 0;
+	transform: translateX(-50px);
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideInTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.slide-left {
+	animation-name: slideInLeft;
+}
+
+.slide-top {
+	animation-name: slideInTop;
+}
+
+.slide-right {
+	animation-name: slideInRight;
+}
