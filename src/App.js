@@ -15,7 +15,6 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
-				<Navigation />
 				<Routes>
 					<Route path="/" exact element={<MyComponent />} />
 					{/* <Route path="/about" component={MyComponent} /> */}
@@ -26,9 +25,9 @@ function App() {
 					<Route path="/link" exact element={<Social />} />
 					<Route path="/calc" exact element={<Weight />} />
 					<Route path="/calories" exact element={<Calories />} />
-					<Analytics />
 				</Routes>
 			</div>
+			<Analytics />
 		</Router>
 	);
 }
