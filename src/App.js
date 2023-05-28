@@ -7,6 +7,8 @@ import Price from "./price/Price";
 import Feed from "./feed/Feed";
 import Gym from "./gym/Gym";
 import Social from "./link/Link";
+import Weight from "./weight/Weight";
+import Calories from "./calories/Calories";
 
 function App() {
 	return (
@@ -21,6 +23,8 @@ function App() {
 					<Route path="/feedback" exact element={<Feed />} />
 					<Route path="/gym" exact element={<Gym />} />
 					<Route path="/link" exact element={<Social />} />
+					<Route path="/calc" exact element={<Weight />} />
+					<Route path="/calories" exact element={<Calories />} />
 				</Routes>
 			</div>
 		</Router>
