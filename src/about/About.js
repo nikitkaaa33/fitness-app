@@ -6,6 +6,8 @@ import "./about.scss";
 import me from "../img/me.jpg";
 import aboutFood from "../img/aboutFood.svg";
 import Accordion from "react-bootstrap/Accordion";
+import foodAbout from "../img/foodAbout.svg";
+import healthy from "../img/healthy.svg";
 
 const MyComponent = () => {
 	const [isVisible, setIsVisible] = useState(false);
@@ -47,7 +49,7 @@ const MyComponent = () => {
 				</div>
 
 				<div className="feature">
-					<img src={aboutFood} alt="" />
+					<img src={foodAbout} alt="" />
 					<h3>Різноманітні програми</h3>
 					<p>
 						Я пропоную широкий спектр тренувань, включаючи силові, кардіо,
@@ -56,7 +58,7 @@ const MyComponent = () => {
 				</div>
 
 				<div className="feature">
-					<img src={aboutFood} alt="Функція 2" />
+					<img src={healthy} alt="Функція 2" />
 					<h3>Налаштування режиму харчування</h3>
 					<p>
 						Допоможу клієнту розробити здорову і збалансовану дієту, підібрати
