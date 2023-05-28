@@ -9,6 +9,7 @@ import Gym from "./gym/Gym";
 import Social from "./link/Link";
 import Weight from "./weight/Weight";
 import Calories from "./calories/Calories";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 					<Route path="/link" exact element={<Social />} />
 					<Route path="/calc" exact element={<Weight />} />
 					<Route path="/calories" exact element={<Calories />} />
+					<Analytics />
 				</Routes>
 			</div>
 		</Router>
