@@ -28,6 +28,9 @@ function CarouselFadeExample() {
 				Більш детально про зал та абонементи можна подивитися на сайті{" "}
 				<a href="https://atletiko.club/page/grig_5a.html">Атлетіко</a>
 			</p>
+			<p className="gym_street">
+				Знаходиться зал на вулиці Петра Григоренка 5-А, м.Позняки
+			</p>
 		</div>
 	);
 }
